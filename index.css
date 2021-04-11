@@ -1,0 +1,100 @@
+.intro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:1000px;
+    background:url("./IMG/a06d864f9a81f011eb35069db2849369.jpg") center no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+padding-top:30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:1000;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:#000000;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    margin:0;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color:#333;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.nav{
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: #55c768;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav-link:hover{
+    color: #c0c0c0;
+
+}
+.nav-link:hover:after{
+opacity: 1;
+}
+
+.search{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+
+}
+
+.product{
+    position: relative;
+}
+
+.mine-product{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.name-product{
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-size: 30px;
+    padding-left: 320px;
+}
+
